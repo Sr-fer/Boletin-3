@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE numeros [
-    <!ELEMENT numeros (#PCDATA)
->]>
+    <!ELEMENT numeros (numero*)>
+    <!ELEMENT numeros (#PCDATA)>
+]>
 <numeros>
     <numero>25</numero>
+    <numero>78</numero>
 </numeros>
